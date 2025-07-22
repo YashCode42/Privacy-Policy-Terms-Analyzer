@@ -1,0 +1,3 @@
+[21-Jul-2025 15:39:56 Europe/Berlin] Database connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it
+[21-Jul-2025 15:40:09 Europe/Berlin] Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[21-Jul-2025 15:40:25 Europe/Berlin] Database connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it

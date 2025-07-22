@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy & Terms Analyzer</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Privacy Policy & Terms Analyzer</h1>
+        <p>Paste your Privacy Policy or Terms & Conditions below or upload a file:</p>
+        <textarea id="policyText" placeholder="Paste your text here..."></textarea>
+        <div class="file-upload">
+            <input type="file" id="fileInput" accept=".txt">
+        </div>
+        <button id="analyzeBtn">Analyze</button>
+        <div id="resultSection" class="hidden">
+            <h2>Analysis Result</h2>
+            <div id="highlightedText"></div>
+            <div id="summary"></div>
+            <div id="scoreSection" class="hidden">
+                <h3>Risk Score</h3>
+                <div id="scoreCards" class="cards-container">
+                    <!-- Score cards will appear here -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+    <footer style="text-align: center; padding: 20px; margin-top: 40px; background-color: #f2f2f2;">
+        <p><a href="admin/index.php">Admin Login</a></p>
+    </footer>
+</body>
+</html> 
